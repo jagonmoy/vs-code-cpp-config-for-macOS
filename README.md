@@ -1,0 +1,1 @@
+# vs-code-cpp-config-for-macOS
