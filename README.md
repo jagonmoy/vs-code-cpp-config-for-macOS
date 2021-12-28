@@ -5,7 +5,7 @@
 
 <br>
 
- <pre>brew install gcc</pre>a
+ <pre>brew install gcc</pre>
  If you are facing error running this command then probably you don't have Xcode installed in your machine . So make sure you have installed Xcode in your machine .
 
  <br>
