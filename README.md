@@ -1,41 +1,39 @@
 # Setting up c++ environment in VS Code for competitive Programming  on MacOS
 
 ## Step 1 :
- Make sure  you have homebrew installed in your machine . It's a package manager for MacOS. Then run the following command 
+Install xcode and command line tools for xcode in your machine .
 
-<br>
+## Step 2 :
 
- <pre>brew install gcc</pre>
- If you are facing error running this command then probably you don't have Xcode installed in your machine . So make sure you have installed Xcode in your machine .
-
- <br>
-
- ## Step 2 :
-
-
-  Now open your Vs Code and add a extension named **Code Runner** . 
-
-   <br>
+Install homebrew in your machine . It's a package manager for MacOS
 
 ## Step 3 :
-  Now , open the folder where you want to create C++ files and create a c++ file .
-Now press , <br>
+Install gcc compiler using "homebrew"
+ <pre>brew install gcc</pre>
+
+## Step 4 :
+Now open your Vs Code and add a extension named **Code Runner** . 
+
+## Step 5 :
+Now , open the folder where you want to create C++ files and create a c++ file .
+<br>
+Now press ,
 **ctrl+alt+N** <br>
 to run the c++ file and see the desired result . 
 <br>
 
-## Step 4
+## Step 6
 But still you can not use the **#include <bits/stdc++.h>** line because it will throw an error saying bits/stdc++.h not found . So, To resolve this ,
 
 - Go to **Finder**
 - then go to **Desktop**
-- press **cmd+shift+G** . it will open a dialog named "Go to folder" . In this dialog type **/usr/local/include** .
+- press **cmd+shift+G** . it will open a dialog named "Go to folder" . In this dialog type **/Library/Developer/CommandLineTools/usr/include/c++/v1** .
 - create a folder named **bits** and inside the folder create a file named **stdc++.h** . 
-- in **stdc++.h** copy paste the code in this [link](https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h)
+- in **stdc++.h** copy paste the code from this [link](https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h)
 
 Now that should be enough to avoid the mentioned error above 
 
-## Step 5
+## Step 7
 
 Still your code can not take input from user . So , to resolve this ,
 
