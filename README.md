@@ -31,7 +31,7 @@ But still you can not use the header **#include <bits/stdc++.h>** . Because this
 - create a folder **bits** and inside the folder create a file **stdc++.h** . 
 - in **stdc++.h** copy paste the code from this [link](https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h)
 
-Now that should be enough to avoid the error we discusssed earlier .
+Now that should be enough to avoid the error we discussed earlier .
 
 ## Step 7
 
